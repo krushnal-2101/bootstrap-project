@@ -1,0 +1,69 @@
+.body{
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #757575;
+}
+:root{
+    --pink-:rgb(247, 71, 128)
+}
+.nav-link{
+    font-weight: 500;
+    font-size: 16px;
+}
+.navbar-brand{
+    color:var(--pink-);
+
+}
+.text-pink{
+    color: var(--pink-);
+}
+.text-pink-2{
+    color: var(--pink-);
+}
+.bg-pink{
+    background-color: var(--pink-);
+}
+.btn-pink{
+    background-color:white;
+    color:var(--pink-);
+}
+
+.border-pink{
+    border:1px solid  rgb(247, 71, 128);
+}
+.btn-white{
+    color: white;
+    background-color: var(--pink-);
+}
+
+.link-pink{
+    color: var(--pink-);
+}
+.display-4{
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+/* hover start*/
+
+.btn-pink:hover{
+    color:white;
+    background-color:var(--pink-);
+    border: 1px solid var(--pink-);
+    transition: 0.5s;
+}
+.btn-white:hover{
+    color:var(--pink-);
+    background-color: white;
+    border: 1px solid var(--pink-);
+    transition: 0.5s;
+
+}
+
+.dropdown-item:hover{
+    background-color:var(--pink-) ;
+    color: white;
+}
+
+/* hover end */
