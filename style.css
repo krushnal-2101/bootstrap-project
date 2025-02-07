@@ -1,0 +1,105 @@
+
+p{
+    font-family: "Rubik", sans-serif;
+}
+.font-jakarta{
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.display-4{
+    font-weight: 700 !important;
+ 
+    font-family: "Plus Jakarta Sans",sans-serif;
+
+}
+.display-5{
+    font-weight: 700 !important;
+    line-height: 1.2 !important;
+    font-size: 3rem !important;
+    color: #353f4f !important;
+    font-family: "Plus Jakarta Sans",sans-serif !important;
+}
+:root{
+    --pink-:rgb(247, 71, 128)
+}
+.nav-link{
+    font-weight: 500;
+    font-size: 16px;
+}
+.navbar-brand{
+    color:var(--pink-);
+
+}
+.text-pink{
+    color: var(--pink-);
+}
+.text-pink-2{
+    color: var(--pink-);
+}
+.bg-pink{
+    background-color: var(--pink-);
+}
+.btn-pink{
+    background-color:white;
+    color:var(--pink-);
+}
+
+.border-pink{
+    border:1px solid  rgb(247, 71, 128);
+}
+.btn-white{
+    color: white;
+    background-color: var(--pink-);
+}
+
+.link-pink{
+    color: var(--pink-);
+}
+.display-4{
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+
+.icon-color{
+    color: #6610f2 ;
+}
+
+
+
+.f-weight{
+    font-weight: 400;
+}
+.b-shadow{
+    box-shadow: 0 0 45px rgba(0, 0, 0, 0.1);
+ transition: 0.5s;
+}
+.b-shadow:hover{
+    background-color: rgba(102, 16, 242, 0.09);;
+   
+}
+/* hover start*/
+
+.btn-pink:hover{
+    color:white;
+    background-color:var(--pink-);
+    border: 1px solid var(--pink-);
+    transition: 0.5s;
+}
+.btn-white:hover{
+    color:var(--pink-);
+    background-color: white;
+    border: 1px solid var(--pink-);
+    transition: 0.5s;
+
+}
+
+.dropdown-item:hover{
+    background-color:var(--pink-) ;
+    color: white;
+}
+
+.service-content a:hover{
+    color: #c63966 !important;
+}
+/* hover end */
