@@ -51,13 +51,18 @@ p{
     color: #6610f2;
 }
 .border-pink{
-    border:1px solid  rgb(247, 71, 128);
+    border:1px solid  rgb(247, 71, 128) !important;
+}
+.border-pink2{
+    border:3px solid  rgb(247, 71, 128) !important;
 }
 .btn-white{
     color: white;
     background-color: var(--pink-);
 }
-
+.bg-lpurple{
+    background-color: #F6F6FA;;
+}
 .link-pink{
     color: var(--pink-);
 }
@@ -69,6 +74,10 @@ p{
     color: #353f4f !important;
 }
 
+.bg-liniar
+{
+   background: linear-gradient(rgba(102, 16, 242, 0.05), rgba(102, 16, 242, 0.05));
+}
 .icon-color{
     color: #6610f2 ;
 }
@@ -90,10 +99,28 @@ p{
 }
 
 .blog-img{
-    background-color: rgba(96, 31, 202, 0.226);
+    background-color: rgba(96, 31, 202, 0.521);
+}
+.bg-gdark{
+    background-color:#353f4f;
+}
+.footer-item a{
+    text-decoration: none;
+    line-height: 35px;
+    color: #353f4f;
+    font-family:"Rubik", sans-serif ;
+    font-weight: 400;
+    transition: all 0.4s;
+}
+span a{
+    color: #f74780;
+    text-decoration: none;
 }
 /* hover start*/
-
+.footer-item a:hover{
+    color:#f74780;
+    letter-spacing: 2px;
+}
 .btn-pink:hover{
     color:white;
     background-color:var(--pink-);
